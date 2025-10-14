@@ -1,5 +1,11 @@
 # 🎓 Smart Attendance System with FAQ Chatbot
 
+![Python](https://img.shields.io/badge/python-3.8+-blue.svg)
+![License](https://img.shields.io/badge/license-MIT-green.svg)
+![Status](https://img.shields.io/badge/status-production%20ready-brightgreen.svg)
+![OpenCV](https://img.shields.io/badge/OpenCV-4.8+-red.svg)
+![Face Recognition](https://img.shields.io/badge/Face%20Recognition-enabled-orange.svg)
+
 A comprehensive solution that combines automated face recognition-based attendance marking with an intelligent rule-based FAQ chatbot for educational institutions.
 
 ##  Features
@@ -38,7 +44,7 @@ A comprehensive solution that combines automated face recognition-based attendan
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/smart-attendance-system.git
+   git clone https://github.com/Anantvarma11/smart-attendance-system.git
    cd smart-attendance-system
    ```
 
@@ -53,10 +59,48 @@ A comprehensive solution that combines automated face recognition-based attendan
    pip install -r requirements.txt
    ```
 
-4. **Run the application**
+4. **Test the system** (optional)
+   ```bash
+   python test_system.py
+   ```
+
+5. **Run the application**
    ```bash
    python main.py
    ```
+
+## 🎬 Demo
+
+### Smart Attendance System
+- Automated face recognition with real-time video processing
+- Session management and duplicate prevention
+- Automatic report generation
+
+### FAQ Chatbot
+- Intelligent keyword matching with contextual responses
+- Interactive commands and help system
+- Extensible knowledge base
+
+> **Note**: Add student images to `data/student_images/` folder for testing face recognition
+
+## 📸 Screenshots
+
+### Main Menu
+```
+🎓 Smart Attendance System with FAQ Chatbot
+============================================================
+1. 📸 Take Attendance (Face Recognition)
+2. 🤖 Chat with FAQ Bot
+3. 📊 View Attendance Reports
+4. ⚙️  System Settings
+5. ❌ Exit
+============================================================
+```
+
+### Attendance System in Action
+- Real-time face detection and recognition
+- Live statistics and progress tracking
+- Automatic attendance marking with confidence scores
 
 ## 📁 Project Structure
 
