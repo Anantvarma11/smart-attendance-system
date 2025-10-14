@@ -1,0 +1,12 @@
+{
+    "database_file": "data/attendance.db",
+    "student_images_folder": "data/student_images",
+    "faq_file": "data/faq.json",
+    "log_file": "logs/system.log",
+    "face_threshold": 0.5,
+    "log_level": "INFO",
+    "attendance_session_duration": 300,
+    "camera_index": 0,
+    "face_recognition_model": "hog",
+    "save_reports_format": "csv"
+}
